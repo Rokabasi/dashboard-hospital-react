@@ -11,15 +11,15 @@ import Slidebar from './components/Slidebar';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Routes>
+      <Navbar className="navbar"/>
+      <Routes className="main">
         <Route path='/' element={<Accueil/>}></Route>
         <Route path='/informations' element={<Information/>}></Route>
         <Route path='/statistique' element={<Statistique/>}></Route>
         <Route path='/reglages' element={<Reglages/>}></Route>
         <Route path='/profil' element={<Profil/>}></Route>
       </Routes>
-      <Slidebar/>
+      <Slidebar className="slidebar"/>
     </div>
   );
 }

@@ -2,21 +2,21 @@ body{
   margin: 0;
   padding: 0;
 }
-.App{
+.navbar .slidebar .main{
   display: flex;
 }
 .navbar{
   width: 15%;
   position: fixed;
 }
-.navbar .fa-cross{
-  padding-left: 15%;
-  padding-top: 10%;
-  padding-bottom: 30%;
-
-}
 .navbar .fa-solid{
   color: rgb(106, 107, 107);
+}
+.navbar .fa-cross{
+  padding-left: 15%;
+  padding-top: 15%;
+  padding-bottom: 30%;
+  color:  rgb(29, 29, 151)
 }
 .navbar .fa-solid:active{
  color:  rgb(29, 29, 151); 
@@ -27,19 +27,19 @@ body{
   margin: 15%;
 }
 .main{
-  /* margin-left: 8%; */
+  margin-left: 8%;
   position: fixed;
   background-color :rgb(218, 250, 239);
-  width: 65%;
-  padding-top: 2%;
+  width: 70%;
+  padding-top: 1%;
   padding-left: 1%;
   margin-top: 1%;
   border-radius: 20px 0 0 0;
-  padding-bottom: 2%;
+  
 }
 .slidebar{
   width: 20%;
-  /* margin-left: 75%; */
+  margin-left: 79%;
   position: fixed;
   height: auto;
   background-color: c;
@@ -80,4 +80,58 @@ body{
 }
 .btn-alarm{
   color:rgb(29, 29, 151);
+}
+.btn-week{
+  margin-right: 2%;
+  background-color:  rgb(29, 29, 151); 
+  border: none;
+  border-radius: 10px;
+  width: 12%; 
+  color: white;
+}
+.first-content{
+  background-color: white;
+  margin-top: 5%;
+  border-radius: 20px;
+  width: 96%;
+  padding: 2% 0 2% 2% ;
+}
+.first-content > h1,h2{
+  color:  rgb(29, 29, 151); 
+}
+.first-content > h1 span {
+  color: rgb(241, 206, 4);
+}
+.first-content > h3{
+  color: rgb(177, 177, 175);
+}
+.second-content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  gap: 1rem;
+  margin-right: 2%;
+}
+ .card-content{
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 2%;
+}
+.card-content > .card-header{
+  display: flex;
+}
+.card-content > .card-header > .card-title1{
+  color: rgb(229, 157, 157);
+  font-size: 1rem;
+  margin-left: auto;
+  padding-right: 30%;
+  padding-top: 15%;
+}
+.card-content > .card-main-title{
+  font-size: 1rem;
+  color: black;
+}
+.card-content > p{
+  font-size: 0.7rem;
+  color: rgb(95, 92, 92);
 }
